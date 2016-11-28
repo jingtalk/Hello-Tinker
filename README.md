@@ -10,6 +10,7 @@
 
 3.然后Application是由Tinker自动生成的，只需要指明类名。本类中的类名是`tinker.sample.android.app.SampleApplication`,然后别忘Manifest的Application加入name属性。
 
+
 ```
 @DefaultLifeCycle(
 application = "tinker.sample.android.app.SampleApplication",             //application name to generate
